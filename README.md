@@ -3,6 +3,9 @@
 ## Overview
 This is a MERN stack-based carpooling application that allows users to offer and book rides. It features user authentication, ride management, bookings, reviews, and real-time chat.
 
+## Website Snapshot
+![Project Preview](./Frontend/public/image.png)
+
 ## Features
 - User authentication (login/register/logout)
 - Create and manage rides
