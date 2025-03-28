@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Moderate padding for size */
+  background-color: black;
+  width: 100%; /* Full width */
+  height: 80px; /* Adjust height */
+  margin: 0; /* Remove any margin */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between left items */
+}
+
+.navbar-logo h1 {
+  color: white;
+  font-size: 32px; /* Reasonable logo text size */
+}
+
+.navbar-right {
+  display: flex;
+  gap: 20px; /* Space between buttons */
+}
+
+.navbar-button {
+  font-size: 18px; /* Moderate button font size */
+  padding: 10px 20px; /* Moderate button padding */
+  color: white;
+  background-color: #333; /* Button color */
+  border-radius: 6px; /* Rounded corners */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navbar-button:hover {
+  background-color: #555; /* Darker background on hover */
+}

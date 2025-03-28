@@ -1,0 +1,61 @@
+.ride-request {
+  width: 100%; /* Occupy full width */
+  height: 100%; /* Occupy full height */
+  padding: 40px; /* Add more padding for space */
+  box-sizing: border-box; /* Ensure padding doesn't affect total width */
+  font-family: Arial, sans-serif;
+}
+
+.ride-request h1 {
+  font-size: 48px; /* Larger heading */
+  font-weight: bold;
+}
+
+.ride-request p {
+  font-size: 20px; /* Slightly larger text */
+  color: #666;
+  margin-bottom: 30px; /* More space below paragraph */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px; /* Increase gap between inputs */
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  padding: 25px; /* Larger padding for more space */
+}
+
+.input-icon {
+  font-size: 30px; /* Larger icon */
+  margin-right: 15px;
+  color: #666;
+}
+
+input[type="text"] {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 24px; /* Larger font size */
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  gap: 30px; /* More space between buttons */
+  margin-top: 30px; /* Increase top margin */
+}
+
+.see-prices-button, .schedule-button {
+  padding: 16px 32px; /* Larger button size */
+  font-size: 20px; /* Larger font */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

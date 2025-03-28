@@ -1,0 +1,41 @@
+a{
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 0;
+}
+
+.footer-logo h2 {
+  font-weight: bold;
+  color: #222;
+}
+
+.footer-sections {
+  margin-top: 20px;
+}
+
+.footer-column h3 {
+  font-weight: bold;
+  color: #222;
+}
+
+.footer-column a {
+  color: #555;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-location {
+  font-size: 14px;
+  color: #555;
+}
